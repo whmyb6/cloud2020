@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-consumer-order80-zookeeper" />
+        <module name="cloud-api-commons" />
+        <module name="cloudalibaba-consumer-nacos-order82" />
+        <module name="cloud-consumer-zookeeper-order80" />
+        <module name="cloudalibaba-provider-payment9002" />
+        <module name="cloudalibaba-provider-payment9001" />
+        <module name="cloud-stream-rabbitmq-consumer8803" />
+        <module name="cloud-stream-rabbitmq-consumer8802" />
+        <module name="cloudalibaba-provider-payment9004" />
+        <module name="cloud-provider-payment8002" />
+        <module name="cloud-provider-payment8001" />
+        <module name="seata-storage-service20022" />
+        <module name="seata-storage-service2002" />
+        <module name="cloudalibaba-provider-payment9003" />
+        <module name="cloud-config-client-3366" />
+        <module name="cloud-consumer-order80-openfeign" />
+        <module name="cloud-consumer-order80-hystrix" />
+        <module name="EurekaMain7002" />
+        <module name="cloud-provider-payment8006-consul" />
+        <module name="cloud-gateway-gateway9527" />
+        <module name="seata-order-service2001" />
+        <module name="cloud-provider-payment8004-zookeeper" />
+        <module name="cloudalibaba-consumer-nacos-order84" />
+        <module name="cloud-consumer-order-random" />
+        <module name="cloud-eureka-server7002" />
+        <module name="cloud-eureka-server7001" />
+        <module name="cloud-stream-rabbitmq-provider8801" />
+        <module name="cloud-consumer-order80-consul" />
+        <module name="cloud-config-client-3355" />
+        <module name="cloudalibaba-config-nacos=client3377" />
+        <module name="cloud-consumer-hystrix-dashboard9001" />
+        <module name="cloud-consumer-order80" />
+        <module name="cloudalibaba-sentinel-service8401" />
+        <module name="cloud-provider-hystrix-payment8001" />
+        <module name="seata-account-service2003" />
+        <module name="cloud-config-center-3344" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-api-commons" target="1.8" />
+      <module name="cloud-config-center-3344" target="1.8" />
+      <module name="cloud-config-client-3355" target="1.8" />
+      <module name="cloud-config-client-3366" target="1.8" />
+      <module name="cloud-consumer-hystrix-dashboard9001" target="1.8" />
+      <module name="cloud-consumer-order-random" target="1.8" />
+      <module name="cloud-consumer-order80" target="1.8" />
+      <module name="cloud-consumer-order80-consul" target="1.8" />
+      <module name="cloud-consumer-order80-hystrix" target="1.8" />
+      <module name="cloud-consumer-order80-openfeign" target="1.8" />
+      <module name="cloud-consumer-order80-radom" target="1.8" />
+      <module name="cloud-consumer-order80-zookeeper" target="1.8" />
+      <module name="cloud-consumer-zookeeper-order80" target="1.5" />
+      <module name="cloud-eureka-server7001" target="1.8" />
+      <module name="cloud-eureka-server7002" target="1.8" />
+      <module name="cloud-gateway-gateway9527" target="1.8" />
+      <module name="cloud-provider-hystrix-payment8001" target="1.8" />
+      <module name="cloud-provider-payment8001" target="1.8" />
+      <module name="cloud-provider-payment8002" target="1.8" />
+      <module name="cloud-provider-payment8004-zookeeper" target="1.8" />
+      <module name="cloud-provider-payment8006-consul" target="1.8" />
+      <module name="cloud-stream-rabbitmq-consumer8802" target="1.8" />
+      <module name="cloud-stream-rabbitmq-consumer8803" target="1.8" />
+      <module name="cloud-stream-rabbitmq-provider8801" target="1.8" />
+      <module name="cloud2020" target="1.8" />
+      <module name="cloudalibaba-config-nacos=client3377" target="1.8" />
+      <module name="cloudalibaba-consumer-nacos-order82" target="1.8" />
+      <module name="cloudalibaba-consumer-nacos-order83" target="1.8" />
+      <module name="cloudalibaba-consumer-nacos-order84" target="1.8" />
+      <module name="cloudalibaba-provider-payment9001" target="1.8" />
+      <module name="cloudalibaba-provider-payment9002" target="1.8" />
+      <module name="cloudalibaba-provider-payment9003" target="1.8" />
+      <module name="cloudalibaba-provider-payment9004" target="1.8" />
+      <module name="cloudalibaba-sentinel-service8401" target="1.8" />
+      <module name="EurekaMain7002" target="1.5" />
+      <module name="seata-account-service2003" target="1.8" />
+      <module name="seata-order-service2001" target="1.8" />
+      <module name="seata-storage-service2002" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

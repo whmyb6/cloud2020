@@ -1,0 +1,16 @@
+server:
+  port: 80
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+#ribbon的超时时间
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
+#feign 日志配置
+logging:
+  level:
+    com.mywhm.springcloud.service.PaymentFeignService: debug

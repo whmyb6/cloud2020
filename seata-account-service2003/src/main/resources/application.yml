@@ -1,0 +1,29 @@
+server:
+  port: 2003
+
+spring:
+  application:
+    name: seata-account-service
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: account_service_group
+        # 注意：与 config.txt 的 service.vgroupMapping.my_test_tx_group=default 配置一致=====
+
+    nacos:
+      discovery:
+        server-addr: 192.168.100.200:1111
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.100.200:3306/seata_account?serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+feign:
+  hystrix:
+    enabled: false
+logging:
+  level:
+    io:
+      seata: info
+mybatis:
+  mapperLocations: classpath:mapper/*.xml

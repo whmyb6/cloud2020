@@ -1,0 +1,28 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/whmyb6/springcloud-config.git
+          #uri: git@github.com:whmyb6/springcloud-config.git  #GitHub 上面的git仓库名称
+          search-paths: # 搜索目录
+            - springcloud-config
+      label: master  #读取分支
+  rabbitmq:
+    host: 10.10.0.11
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'

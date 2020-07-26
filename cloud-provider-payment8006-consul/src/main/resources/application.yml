@@ -1,0 +1,16 @@
+server:
+  port: 8006
+spring:
+  cloud:
+    consul:
+      host: 10.10.0.11
+      port: 8500
+      discovery:
+        hostname: 10.10.0.11
+        service-name: ${spring.application.name}
+        heartbeat:
+          enabled: true
+        prefer-ip-address: true
+        health-check-path: health
+  application:
+    name: cloud-provider-payment

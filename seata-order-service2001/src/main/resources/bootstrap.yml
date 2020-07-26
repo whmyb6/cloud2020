@@ -1,0 +1,12 @@
+server:
+  port: 2001
+
+spring:
+  application:
+    name: seata-order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.100.200:1111
+      config:
+        server-addr: 192.168.100.200:1111 #Nacos服务配置中心地址
